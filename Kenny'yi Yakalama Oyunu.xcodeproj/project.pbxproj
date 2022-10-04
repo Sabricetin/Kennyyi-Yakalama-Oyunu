@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A8DD8D328E2339500B8239A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8DD8D228E2339500B8239A /* AppDelegate.swift */; };
+		2A8DD8D528E2339500B8239A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8DD8D428E2339500B8239A /* SceneDelegate.swift */; };
+		2A8DD8D728E2339500B8239A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8DD8D628E2339500B8239A /* ViewController.swift */; };
+		2A8DD8DA28E2339500B8239A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8DD8D828E2339500B8239A /* Main.storyboard */; };
+		2A8DD8DC28E2339500B8239A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8DD8DB28E2339500B8239A /* Assets.xcassets */; };
+		2A8DD8DF28E2339500B8239A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8DD8DD28E2339500B8239A /* LaunchScreen.storyboard */; };
+		2A8DD8EA28E2339600B8239A /* Kenny_yi_Yakalama_OyunuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8DD8E928E2339600B8239A /* Kenny_yi_Yakalama_OyunuTests.swift */; };
+		2A8DD8F428E2339600B8239A /* Kenny_yi_Yakalama_OyunuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8DD8F328E2339600B8239A /* Kenny_yi_Yakalama_OyunuUITests.swift */; };
+		2A8DD8F628E2339600B8239A /* Kenny_yi_Yakalama_OyunuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8DD8F528E2339600B8239A /* Kenny_yi_Yakalama_OyunuUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A8DD8E628E2339600B8239A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A8DD8C728E2339500B8239A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A8DD8CE28E2339500B8239A;
+			remoteInfo = "Kenny'yi Yakalama Oyunu";
+		};
+		2A8DD8F028E2339600B8239A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A8DD8C728E2339500B8239A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A8DD8CE28E2339500B8239A;
+			remoteInfo = "Kenny'yi Yakalama Oyunu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A8DD8CF28E2339500B8239A /* Kenny'yi Yakalama Oyunu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kenny'yi Yakalama Oyunu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8DD8D228E2339500B8239A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A8DD8D428E2339500B8239A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2A8DD8D628E2339500B8239A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A8DD8D928E2339500B8239A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A8DD8DB28E2339500B8239A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A8DD8DE28E2339500B8239A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A8DD8E028E2339500B8239A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A8DD8E528E2339600B8239A /* Kenny'yi Yakalama OyunuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kenny'yi Yakalama OyunuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8DD8E928E2339600B8239A /* Kenny_yi_Yakalama_OyunuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kenny_yi_Yakalama_OyunuTests.swift; sourceTree = "<group>"; };
+		2A8DD8EF28E2339600B8239A /* Kenny'yi Yakalama OyunuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kenny'yi Yakalama OyunuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8DD8F328E2339600B8239A /* Kenny_yi_Yakalama_OyunuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kenny_yi_Yakalama_OyunuUITests.swift; sourceTree = "<group>"; };
+		2A8DD8F528E2339600B8239A /* Kenny_yi_Yakalama_OyunuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kenny_yi_Yakalama_OyunuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A8DD8CC28E2339500B8239A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8DD8E228E2339600B8239A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8DD8EC28E2339600B8239A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A8DD8C628E2339500B8239A = {
+			isa = PBXGroup;
+			children = (
+				2A8DD8D128E2339500B8239A /* Kenny'yi Yakalama Oyunu */,
+				2A8DD8E828E2339600B8239A /* Kenny'yi Yakalama OyunuTests */,
+				2A8DD8F228E2339600B8239A /* Kenny'yi Yakalama OyunuUITests */,
+				2A8DD8D028E2339500B8239A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A8DD8D028E2339500B8239A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A8DD8CF28E2339500B8239A /* Kenny'yi Yakalama Oyunu.app */,
+				2A8DD8E528E2339600B8239A /* Kenny'yi Yakalama OyunuTests.xctest */,
+				2A8DD8EF28E2339600B8239A /* Kenny'yi Yakalama OyunuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A8DD8D128E2339500B8239A /* Kenny'yi Yakalama Oyunu */ = {
+			isa = PBXGroup;
+			children = (
+				2A8DD8D228E2339500B8239A /* AppDelegate.swift */,
+				2A8DD8D428E2339500B8239A /* SceneDelegate.swift */,
+				2A8DD8D628E2339500B8239A /* ViewController.swift */,
+				2A8DD8D828E2339500B8239A /* Main.storyboard */,
+				2A8DD8DB28E2339500B8239A /* Assets.xcassets */,
+				2A8DD8DD28E2339500B8239A /* LaunchScreen.storyboard */,
+				2A8DD8E028E2339500B8239A /* Info.plist */,
+			);
+			path = "Kenny'yi Yakalama Oyunu";
+			sourceTree = "<group>";
+		};
+		2A8DD8E828E2339600B8239A /* Kenny'yi Yakalama OyunuTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A8DD8E928E2339600B8239A /* Kenny_yi_Yakalama_OyunuTests.swift */,
+			);
+			path = "Kenny'yi Yakalama OyunuTests";
+			sourceTree = "<group>";
+		};
+		2A8DD8F228E2339600B8239A /* Kenny'yi Yakalama OyunuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A8DD8F328E2339600B8239A /* Kenny_yi_Yakalama_OyunuUITests.swift */,
+				2A8DD8F528E2339600B8239A /* Kenny_yi_Yakalama_OyunuUITestsLaunchTests.swift */,
+			);
+			path = "Kenny'yi Yakalama OyunuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A8DD8CE28E2339500B8239A /* Kenny'yi Yakalama Oyunu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8DD8F928E2339600B8239A /* Build configuration list for PBXNativeTarget "Kenny'yi Yakalama Oyunu" */;
+			buildPhases = (
+				2A8DD8CB28E2339500B8239A /* Sources */,
+				2A8DD8CC28E2339500B8239A /* Frameworks */,
+				2A8DD8CD28E2339500B8239A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kenny'yi Yakalama Oyunu";
+			productName = "Kenny'yi Yakalama Oyunu";
+			productReference = 2A8DD8CF28E2339500B8239A /* Kenny'yi Yakalama Oyunu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A8DD8E428E2339600B8239A /* Kenny'yi Yakalama OyunuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8DD8FC28E2339600B8239A /* Build configuration list for PBXNativeTarget "Kenny'yi Yakalama OyunuTests" */;
+			buildPhases = (
+				2A8DD8E128E2339600B8239A /* Sources */,
+				2A8DD8E228E2339600B8239A /* Frameworks */,
+				2A8DD8E328E2339600B8239A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A8DD8E728E2339600B8239A /* PBXTargetDependency */,
+			);
+			name = "Kenny'yi Yakalama OyunuTests";
+			productName = "Kenny'yi Yakalama OyunuTests";
+			productReference = 2A8DD8E528E2339600B8239A /* Kenny'yi Yakalama OyunuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A8DD8EE28E2339600B8239A /* Kenny'yi Yakalama OyunuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8DD8FF28E2339600B8239A /* Build configuration list for PBXNativeTarget "Kenny'yi Yakalama OyunuUITests" */;
+			buildPhases = (
+				2A8DD8EB28E2339600B8239A /* Sources */,
+				2A8DD8EC28E2339600B8239A /* Frameworks */,
+				2A8DD8ED28E2339600B8239A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A8DD8F128E2339600B8239A /* PBXTargetDependency */,
+			);
+			name = "Kenny'yi Yakalama OyunuUITests";
+			productName = "Kenny'yi Yakalama OyunuUITests";
+			productReference = 2A8DD8EF28E2339600B8239A /* Kenny'yi Yakalama OyunuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A8DD8C728E2339500B8239A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2A8DD8CE28E2339500B8239A = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					2A8DD8E428E2339600B8239A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 2A8DD8CE28E2339500B8239A;
+					};
+					2A8DD8EE28E2339600B8239A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 2A8DD8CE28E2339500B8239A;
+					};
+				};
+			};
+			buildConfigurationList = 2A8DD8CA28E2339500B8239A /* Build configuration list for PBXProject "Kenny'yi Yakalama Oyunu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A8DD8C628E2339500B8239A;
+			productRefGroup = 2A8DD8D028E2339500B8239A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A8DD8CE28E2339500B8239A /* Kenny'yi Yakalama Oyunu */,
+				2A8DD8E428E2339600B8239A /* Kenny'yi Yakalama OyunuTests */,
+				2A8DD8EE28E2339600B8239A /* Kenny'yi Yakalama OyunuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A8DD8CD28E2339500B8239A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8DD8DF28E2339500B8239A /* LaunchScreen.storyboard in Resources */,
+				2A8DD8DC28E2339500B8239A /* Assets.xcassets in Resources */,
+				2A8DD8DA28E2339500B8239A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8DD8E328E2339600B8239A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8DD8ED28E2339600B8239A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A8DD8CB28E2339500B8239A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8DD8D728E2339500B8239A /* ViewController.swift in Sources */,
+				2A8DD8D328E2339500B8239A /* AppDelegate.swift in Sources */,
+				2A8DD8D528E2339500B8239A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8DD8E128E2339600B8239A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8DD8EA28E2339600B8239A /* Kenny_yi_Yakalama_OyunuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8DD8EB28E2339600B8239A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8DD8F628E2339600B8239A /* Kenny_yi_Yakalama_OyunuUITestsLaunchTests.swift in Sources */,
+				2A8DD8F428E2339600B8239A /* Kenny_yi_Yakalama_OyunuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A8DD8E728E2339600B8239A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A8DD8CE28E2339500B8239A /* Kenny'yi Yakalama Oyunu */;
+			targetProxy = 2A8DD8E628E2339600B8239A /* PBXContainerItemProxy */;
+		};
+		2A8DD8F128E2339600B8239A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A8DD8CE28E2339500B8239A /* Kenny'yi Yakalama Oyunu */;
+			targetProxy = 2A8DD8F028E2339600B8239A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A8DD8D828E2339500B8239A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A8DD8D928E2339500B8239A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A8DD8DD28E2339500B8239A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A8DD8DE28E2339500B8239A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A8DD8F728E2339600B8239A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A8DD8F828E2339600B8239A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A8DD8FA28E2339600B8239A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kenny'yi Yakalama Oyunu/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "c-etin.Kenny-yi-Yakalama-Oyunu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A8DD8FB28E2339600B8239A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kenny'yi Yakalama Oyunu/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "c-etin.Kenny-yi-Yakalama-Oyunu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A8DD8FD28E2339600B8239A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "c-etin.Kenny-yi-Yakalama-OyunuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kenny'yi Yakalama Oyunu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kenny'yi Yakalama Oyunu";
+			};
+			name = Debug;
+		};
+		2A8DD8FE28E2339600B8239A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "c-etin.Kenny-yi-Yakalama-OyunuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kenny'yi Yakalama Oyunu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kenny'yi Yakalama Oyunu";
+			};
+			name = Release;
+		};
+		2A8DD90028E2339600B8239A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "c-etin.Kenny-yi-Yakalama-OyunuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kenny'yi Yakalama Oyunu";
+			};
+			name = Debug;
+		};
+		2A8DD90128E2339600B8239A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "c-etin.Kenny-yi-Yakalama-OyunuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kenny'yi Yakalama Oyunu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A8DD8CA28E2339500B8239A /* Build configuration list for PBXProject "Kenny'yi Yakalama Oyunu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8DD8F728E2339600B8239A /* Debug */,
+				2A8DD8F828E2339600B8239A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A8DD8F928E2339600B8239A /* Build configuration list for PBXNativeTarget "Kenny'yi Yakalama Oyunu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8DD8FA28E2339600B8239A /* Debug */,
+				2A8DD8FB28E2339600B8239A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A8DD8FC28E2339600B8239A /* Build configuration list for PBXNativeTarget "Kenny'yi Yakalama OyunuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8DD8FD28E2339600B8239A /* Debug */,
+				2A8DD8FE28E2339600B8239A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A8DD8FF28E2339600B8239A /* Build configuration list for PBXNativeTarget "Kenny'yi Yakalama OyunuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8DD90028E2339600B8239A /* Debug */,
+				2A8DD90128E2339600B8239A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A8DD8C728E2339500B8239A /* Project object */;
+}
