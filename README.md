@@ -16,3 +16,4 @@
 # Kenny-oyunu
 # Kenny-oyunu
 # Kenny-oyunu
+# Kenny-Oyunu-Yaklama
